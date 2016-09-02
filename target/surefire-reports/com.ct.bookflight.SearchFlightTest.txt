@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.ct.bookflight.SearchFlightTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 65.665 sec <<< FAILURE! - in com.ct.bookflight.SearchFlightTest
+searchFlightTest(com.ct.bookflight.SearchFlightTest)  Time elapsed: 60.093 sec  <<< FAILURE!
+java.lang.AssertionError: window not switched!! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ct.bookflight.SearchFlightTest.searchFlightTest(SearchFlightTest.java:58)
+

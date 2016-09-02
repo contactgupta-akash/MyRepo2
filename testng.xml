@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+<listeners>
+		<listener class-name="com.ct.bookflight.MyListener" />
+	</listeners>
+  <test name="ClearTripTest">
+    <classes>
+      <class name="com.ct.bookflight.SearchFlightTest"/>
+    </classes>
+  </test> <!-- ClearTripTest -->
+</suite> <!-- Suite -->
